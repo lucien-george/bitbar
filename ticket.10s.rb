@@ -9,7 +9,7 @@
 # <bitbar.dependencies>Ruby</bitbar.dependencies>
 
 ## CONFIGURATION
-BATCH_SLUG = 552
+BATCH_SLUG = 525
 
 ## SCRIPT
 require 'net/http'
@@ -37,8 +37,8 @@ class Plugin
 
     case @status["color"]
     when "red" then "😱"
-    when "orange" then "😨"
-    when "green" then "😇"
+    when "orange" then "😬"
+    when "green" then "😄"
     else
       "😴"
     end
